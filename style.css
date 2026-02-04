@@ -1,0 +1,9 @@
+        #head{
+    margin-left: 500px;
+}
+.mainbox{
+    border: 2px solid black;
+    height:400px;
+    width: 700px;
+    margin-left: 100px;
+}
