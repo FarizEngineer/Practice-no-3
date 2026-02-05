@@ -3,15 +3,35 @@
 }
 .mainbox{
     border: 2px solid black;
-    height:400px;
-    width: 550px;
-    margin-left: 380px;
+    height:320px;
+    width: 510px;
+    margin-left: 410px;
+    padding: 3px;
 }
 #inp1{
     height:30px;
-    width:350px ;
-    margin-left:40px ;
+    width:380px ;
+    margin-left:55px ;
     margin-top:30px ;
 }
-#inp2{}
-#inp3{}
+#inp2{
+     height:30px;
+    width:380px ;
+    margin-left:55px ;
+    margin-top:30px ;
+}
+#inp3{
+     height:30px;
+    width:380px ;
+    margin-left:55px ;
+    margin-top:30px ;
+}
+#btr{
+    height:40px;
+    width: 115px;
+    margin-top: 40px;
+    margin-left: 195px;
+    border-radius: 8px;
+   background: linear-gradient( hotpink, cyan);
+
+}
