@@ -14,9 +14,9 @@ else{
     localStorage.setItem("usermail" , mail)
     localStorage.setItem("userpassword" , password)
 
-    confirm("Confirm to register on this site")
+    confirm("Confirm to login on this site")
 
-    
+    window.location.href="mainpage.html"
 }
 
 })

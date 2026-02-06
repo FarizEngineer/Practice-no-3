@@ -1,5 +1,17 @@
         #head{
-    margin-left: 555px;
+    color: antiquewhite;        
+    margin-left: 600px;
+    animation: name 2s ease-in-out;
+}
+@keyframes name{
+    from{
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
 }
 .mainbox{
     border: 2px solid black;
@@ -8,31 +20,98 @@
     margin-left: 410px;
     padding: 3px;
     border-radius: 10px;
+    position:relative;
+    animation: mbox 2s ease-in-out;
+}
+@keyframes mbox {
+    from{
+        transform: translateY(8px);
+        opacity: 0;
+    }
+    to{
+         transform: translateY(0px);
+        opacity: 1;
+    }
 }
 #inp1{
     height:30px;
     width:380px ;
     margin-left:55px ;
     margin-top:30px ;
+     animation: input1 2s ease-in-out;
+}
+@keyframes input1 {
+from{
+    transform: translateX(-60px);
+    opacity: 0;
+}
+to{
+      transform: translateX(0px);
+    opacity: 1;
+}
+
 }
 #inp2{
      height:30px;
     width:380px ;
     margin-left:55px ;
     margin-top:30px ;
+     animation: input2 2s ease-in-out;
+}
+@keyframes input2 {
+from{
+      transform: translateX(60px);
+    opacity: 0;
+}
+to{
+      transform: translateX(0px);
+    opacity: 1;
+}
+
 }
 #inp3{
      height:30px;
     width:380px ;
     margin-left:55px ;
     margin-top:30px ;
+     animation: input3 2s ease-in-out;
+}
+@keyframes input3{
+from{
+      transform: translateX(-60px);
+    opacity: 0;
+}
+to{
+      transform: translateX(0px);
+    opacity: 1;
+}
+
 }
 #btr{
-    height:40px;
+    padding-bottom:45px;
+    height:10px;
     width: 115px;
-    margin-top: 40px;
+    margin-top: 50px;
     margin-left: 195px;
     border-radius: 8px;
+    color:beige;
    background: linear-gradient( hotpink, cyan);
+   animation: but 2s ease-in-out;
+
+}
+@keyframes but {
+    from{
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+.backimg{
+    background-image: url(images/backimg\ logform.jpg);
+    background-size: cover;
+    position:relative;
 
 }
