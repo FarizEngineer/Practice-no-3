@@ -1,6 +1,24 @@
 $(document).ready(function(){
-function butn(){
-    let in1=$(inp1).value
+
+$('#btr').click(function(){
+    let name=$("#inp1").val();
+    let mail=$("#inp2").val();
+    let password=$("#inp3").val();
+
+// Condition
+if(name=="" || mail=="" || password==""){
+alert("Please fillout all fields...")
 }
+else{
+    localStorage.setItem("username" , name)
+    localStorage.setItem("usermail" , mail)
+    localStorage.setItem("userpassword" , password)
+
+    confirm("Confirm to register on this site")
+
+    
+}
+
+})
 
 })

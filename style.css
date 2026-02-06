@@ -1,5 +1,5 @@
         #head{
-    margin-left: 550px;
+    margin-left: 555px;
 }
 .mainbox{
     border: 2px solid black;
@@ -7,6 +7,7 @@
     width: 510px;
     margin-left: 410px;
     padding: 3px;
+    border-radius: 10px;
 }
 #inp1{
     height:30px;
