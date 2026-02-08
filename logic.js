@@ -17,8 +17,13 @@ else{
     confirm("Confirm to login on this site")
 
     window.location.href="mainpage.html"
-}
+
+     let username = localStorage.getItem("username");
+    if(username) {
+        $('.uname').text(username);  // Displays name in <p class="uname"></p>
+    }}
 
 })
+
 
 })
