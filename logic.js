@@ -18,12 +18,21 @@ else{
 
     window.location.href="mainpage.html"
 
-     let username = localStorage.getItem("username");
-    if(username) {
-        $('.uname').text(username);  // Displays name in <p class="uname"></p>
-    }}
+   
+
+}
 
 })
+
+
+
+ const username = localStorage.getItem("usermame");
+
+            if (username) {
+                $('.uname').text(username);
+            } else {
+                $('.uname').text("Guest");
+            }
 
 
 })
